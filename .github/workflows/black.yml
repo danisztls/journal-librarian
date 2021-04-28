@@ -1,3 +1,0 @@
-name: Python Formatter with Black
-on: [push, pull_request]
-uses: lgeiger/black-action@v1.0.1

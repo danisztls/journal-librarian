@@ -1,0 +1,8 @@
+name: Python
+on: [push, pull_request]
+uses: piotrpawlaczek/python-blacken@release/stable
+with:
+  path: '.'
+  only-check: 'no'
+#  line-length: '88'
+#  sanity-check: 'safe'
